@@ -15,7 +15,7 @@ import time
 
 def open_browser():
     chrome_options = webdriver.ChromeOptions()
-    proxies_extension = proxies("voltz1020", "voltz1020_country-br", "geo.iproyal.com", "12321")
+    proxies_extension = proxies("username", "password", "host", "port")
     chrome_options.add_extension(proxies_extension)
     service = Service(executable_path='./chromedriver.exe') 
     driver = webdriver.Chrome(service=service, options=chrome_options)
