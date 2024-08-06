@@ -4,7 +4,7 @@ import os
 if os.path.exists("proxies_extension.zip"):  
     os.remove("proxies_extension.zip")
 
-def proxies(username, password, endpoint, port):
+def proxies(username, password, host, port):
     manifest_json = """
     {
         "version": "1.0.0",
@@ -55,7 +55,7 @@ def proxies(username, password, endpoint, port):
                 {urls: ["<all_urls>"]},
                 ['blocking']
     );
-    """ % (endpoint, port, username, password)
+    """ % (host, port, username, password)
 
     extension = 'proxies_extension.zip'
 
