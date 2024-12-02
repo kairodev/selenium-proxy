@@ -1,4 +1,4 @@
-# Selenium Proxy Extension v0.1.1
+# Selenium Proxy Extension
 Considering that there is no function that works very well natively in Selenium for using proxys with authentication in chromedriver, this is an effective way to solve this problem.
 
 ## Installation
