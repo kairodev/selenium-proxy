@@ -42,9 +42,11 @@ if __name__ == "__main__":
 This extension works in a very simple way, when calling the proxies function, it creates a javascript extension that configures the proxy in the browser, and this extension is injected when starting the browser
 
 ## Roadmap
-- Add possibility to change the proxy with the browser open
-- Support browsers other than Chromedriver
 
+| Function   | Status  |
+| :---------- | :--------- | 
+| `Add possibility to change the proxy with the browser open` | Waiting | 
+| `Support browsers other than Chromedriver` | Waiting | 
 ## Author
 
 - Github [@kairodev](https://www.github.com/kairodev)
